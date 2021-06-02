@@ -1,0 +1,19 @@
+2021-05-31T15:59:36+00:00 CRITICAL Uncaught Error: Undefined constant "LS_ROOT_URL" in C:\xampp\htdocs\Web\wp-content\plugins\LayerSlider\assets\wp\scripts.php:129
+Stack trace:
+#0 C:\xampp\htdocs\Web\wp-includes\class-wp-hook.php(292): layerslider_enqueue_content_res('')
+#1 C:\xampp\htdocs\Web\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\Web\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Web\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\Web\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 C:\xampp\htdocs\Web\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 C:\xampp\htdocs\Web\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->setup_theme('')
+#7 C:\xampp\htdocs\Web\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\Web\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\Web\wp-settings.php(492): do_action('setup_theme')
+#10 C:\xampp\htdocs\Web\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\Web\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Web\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\Web\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown en C:\xampp\htdocs\Web\wp-content\plugins\LayerSlider\assets\wp\scripts.php en la línea 129
+

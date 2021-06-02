@@ -1,0 +1,2211 @@
+# Translation of Plugins - Delicious Recipes &#8211; WordPress Recipe Plugin - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Delicious Recipes &#8211; WordPress Recipe Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-26 06:10:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Delicious Recipes &#8211; WordPress Recipe Plugin - Stable (latest release)\n"
+
+#: src/Functions/CoreFunctions.php:550 assets/admin/build/global.js:3
+msgid "Note"
+msgstr "Nota"
+
+#: src/classes/class-delicious-recipes-whats-new.php:29
+#: src/classes/class-delicious-recipes-whats-new.php:30
+msgid "What's New"
+msgstr "Novedades"
+
+#: src/Functions/AjaxFunctions.php:470
+msgid "Plugin"
+msgstr "Plugin"
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:135
+msgid "Recipe Onboarding Settings Saved Successfully."
+msgstr "Ajustes para añadir recetas guardados correctamente."
+
+#: src/Functions/CoreFunctions.php:566 src/Functions/CoreFunctions.php:962
+#: assets/admin/build/global.js:3
+msgid "Mark as complete"
+msgstr "Marcar como completado"
+
+#. translators: %1$s: gallery images count
+#: templates/recipe/gallery.php:39
+msgctxt "gallery iamges count"
+msgid "%1$s photo"
+msgid_plural "%1$s photos"
+msgstr[0] "%1$s foto"
+msgstr[1] "%1$s fotos"
+
+#: src/blocks/dynamic-blocks/class-delicious-recipe-buttons.php:76
+#: src/blocks/dynamic-blocks/class-delicious-recipe-buttons.php:133
+#: src/blocks/dynamic-blocks/class-delicious-recipe-buttons.php:168
+#: assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-buttons/RecipeButtons.js:92
+msgid "Jump to Recipe"
+msgstr "Ir a la receta"
+
+#: src/DeliciousPublic.php:238
+msgid "Select filters"
+msgstr "Seleccionar filtro"
+
+#. translators: %s: number of comments count
+#: templates/recipe/recipe-block/summary.php:61
+msgctxt "number of comments"
+msgid "%s vote"
+msgid_plural "%s votes"
+msgstr[0] "%s voto"
+msgstr[1] "%s votos"
+
+#: src/Functions/HelperFunctions.php:1192
+msgid "min"
+msgstr "minuto(s)"
+
+#: templates/global/block-print.php:328
+msgid "Keywords: "
+msgstr "Palabras clave:"
+
+#: src/blocks/recipe-card/block.php:13 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-card/block.js:179
+msgid "Recipe Card"
+msgstr "Tarjeta de receta"
+
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:490
+#: assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-card-dynamic/components/RecipeCard.js:685
+msgid "Keywords:"
+msgstr "Palabras clave:"
+
+#: src/Functions/HelperFunctions.php:1147
+msgid "Displays text & icon"
+msgstr "Muestra el texto y el icono"
+
+#: src/Functions/HelperFunctions.php:1146
+msgid "Displays text"
+msgstr "Muestra el texto"
+
+#: src/Functions/HelperFunctions.php:1145
+msgid "Displays icon"
+msgstr "Muestra el icono"
+
+#: src/DeliciousAdmin.php:174
+msgid "Add to Menu"
+msgstr "Añadir al menú"
+
+#: src/DeliciousAdmin.php:166
+msgid "Link Text"
+msgstr "Texto del enlace"
+
+#: src/classes/class-delicious-recipes-shortcodes.php:423
+#: src/classes/class-delicious-recipes-shortcodes.php:437
+#: src/DeliciousAdmin.php:161 src/DeliciousAdmin.php:841
+msgid "Surprise Me"
+msgstr "Sorpréndeme"
+
+#: src/Functions/HelperFunctions.php:1148
+msgid "Randomize posts"
+msgstr "Entradas aleatorias"
+
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:882
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:246
+#: assets/admin/build/blocks.js:1
+msgid "kcal"
+msgstr "kcal"
+
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:875
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:239
+#: assets/admin/build/blocks.js:1
+msgid "servings"
+msgstr "porciones"
+
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:867
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:231
+#: assets/admin/build/blocks.js:1 assets/blocks/details/block.js:104
+msgid "Total time"
+msgstr "Tiempo total"
+
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:860
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:224
+#: assets/admin/build/blocks.js:1
+msgid "Rest time"
+msgstr "Tiempo de descanso"
+
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:853
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:217
+msgid "Cook time"
+msgstr "Tiempo de cocción"
+
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:847
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:854
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:861
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:868
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:211
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:218
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:225
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:232
+#: assets/admin/build/blocks.js:1
+msgid "minutes"
+msgstr "minutos"
+
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:846
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:210
+#: assets/admin/build/blocks.js:1 assets/blocks/details/block.js:53
+#: assets/blocks/details/block.js:89
+msgid "Prep time"
+msgstr "Tiempo de preparación"
+
+#: src/classes/class-delicious-recipes-helpers.php:162
+#: src/classes/class-delicious-recipes-helpers.php:173
+#: assets/admin/build/blocks.js:1
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minuto"
+msgstr[1] "minutos"
+
+#: src/classes/class-delicious-recipes-helpers.php:158
+#: src/classes/class-delicious-recipes-helpers.php:169
+#: src/Functions/HelperFunctions.php:1193 assets/admin/build/blocks.js:1
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "hora"
+msgstr[1] "horas"
+
+#: src/DeliciousAdmin.php:894
+msgid "Jump to recipe settings"
+msgstr "Ve a los ajustes de la receta"
+
+#. translators: %1$s: importer plugin name %2$s: importer plugin name
+#: src/admin/partials/dr-import-recipe-screen.php:41
+msgid "%1$s plugin is not installed or activated. Please activate the %2$s plugin first to start import."
+msgstr "%1$s No se ha instalado o activado el plugin. Activa el %2$s plugin antes de empezar la importación."
+
+#: src/import/class-delicious-recipes-import-wp-recipe-maker.php:28
+msgid "WP Recipe Maker"
+msgstr "WP Recipe Maker"
+
+#: src/classes/class-delicious-recipes-activator.php:103
+msgid "Recipe Editor"
+msgstr "Editor de recetas"
+
+#: templates/recipe/gallery.php:36
+msgid "View Gallery"
+msgstr "Ver galería"
+
+#. translators: %1$d: start count %2$d: start count + posts per page %3$d:
+#. total recipes count
+#: templates/taxonomy-archive.php:45
+msgid "%1$d - %2$d of %3$d Recipes"
+msgstr "%1$d - %2$d de %3$d recetas"
+
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:1179
+#: assets/admin/build/blocks.js:1 assets/blocks/common/RecipeCard.js:114
+#: assets/blocks/recipe-card-dynamic/components/RecipeCard.js:513
+msgid "Recipe Keys:"
+msgstr "Claves de la receta:"
+
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:1152
+#: assets/admin/build/blocks.js:1 assets/blocks/common/RecipeCard.js:95
+#: assets/blocks/recipe-card-dynamic/components/RecipeCard.js:496
+msgid "Courses:"
+msgstr "Platos:"
+
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:1161
+#: assets/admin/build/blocks.js:1 assets/blocks/common/RecipeCard.js:78
+#: assets/blocks/recipe-card-dynamic/components/RecipeCard.js:479
+msgid "Cuisine:"
+msgstr "Cocina:"
+
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:1170
+#: assets/admin/build/blocks.js:1 assets/blocks/common/RecipeCard.js:59
+#: assets/blocks/recipe-card-dynamic/components/RecipeCard.js:462
+msgid "Cooking Method:"
+msgstr "Método de cocción:"
+
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:445
+#: assets/admin/build/blocks.js:1 assets/blocks/common/RecipeCard.js:51
+#: assets/blocks/recipe-card-dynamic/components/RecipeCard.js:452
+msgid "Author:"
+msgstr "Autor:"
+
+#: src/blocks/handpicked-recipes/block.php:13 assets/admin/build/blocks.js:1
+#: assets/blocks/handpicked-recipes/block.js:210
+#: assets/blocks/handpicked-recipes/block.js:219
+msgid "Handpicked Recipes"
+msgstr "Recetas seleccionadas manualmente"
+
+#: src/blocks/dynamic-blocks/class-delicious-recipe-buttons.php:81
+#: src/blocks/dynamic-blocks/class-delicious-recipe-buttons.php:134
+#: src/blocks/dynamic-blocks/class-delicious-recipe-buttons.php:191
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/blocks/recipe-buttons/RecipeButtons.js:126
+#: assets/blocks/recipe-buttons/RecipeButtons.js:147
+msgid "Jump to Video"
+msgstr "Saltar al vídeo"
+
+#: src/blocks/recipe-card/block.php:62
+msgid "Recipe Card not found."
+msgstr "No se ha encontrado la tarjeta de recetas."
+
+#: src/Functions/CoreFunctions.php:1252 src/Functions/CoreFunctions.php:1254
+msgid "cans"
+msgstr "latas"
+
+#: src/Functions/CoreFunctions.php:1251 src/Functions/CoreFunctions.php:1253
+msgid "can"
+msgstr "lata"
+
+#: src/Functions/CoreFunctions.php:1245 src/Functions/CoreFunctions.php:1247
+msgid "jars"
+msgstr "jarras"
+
+#: src/Functions/CoreFunctions.php:1244 src/Functions/CoreFunctions.php:1246
+msgid "jar"
+msgstr "jarra"
+
+#: src/Functions/CoreFunctions.php:1238 src/Functions/CoreFunctions.php:1240
+msgid "cloves"
+msgstr "dientes"
+
+#: src/Functions/CoreFunctions.php:1237 src/Functions/CoreFunctions.php:1239
+msgid "clove"
+msgstr "diente"
+
+#: src/blocks/recipe-by-tax/block.php:14
+msgid "Recipes By Taxonomy"
+msgstr "Recetas por taxonomía"
+
+#: src/admin/partials/dr-import-recipe-screen.php:117
+msgid "View"
+msgstr "Ver"
+
+#: src/admin/partials/dr-import-recipe-screen.php:116
+#: assets/admin/build/global.js:1
+msgid "Edit"
+msgstr "Editar"
+
+#: src/admin/partials/dr-import-recipe-screen.php:91
+#: src/admin/partials/dr-import-recipe-screen.php:101
+msgid "Featured Image"
+msgstr "Imagen destacada"
+
+#: src/admin/partials/dr-import-recipe-screen.php:90
+#: src/admin/partials/dr-import-recipe-screen.php:100
+msgid "Date Published"
+msgstr "Fecha de publicación"
+
+#: src/admin/partials/dr-import-recipe-screen.php:88
+#: src/admin/partials/dr-import-recipe-screen.php:98
+msgid "Recipe ID"
+msgstr "ID de la receta"
+
+#: src/admin/partials/dr-import-recipe-screen.php:87
+#: src/admin/partials/dr-import-recipe-screen.php:97
+msgid "Recipe Title"
+msgstr "Título de la receta"
+
+#: src/admin/partials/dr-import-recipe-screen.php:82
+msgid "Recipes to Import"
+msgstr "Recetas a importar"
+
+#: src/admin/partials/dr-import-recipe-screen.php:65
+msgid " recipes found"
+msgstr " recetas encontradas"
+
+#. translators: %d: recipes count
+#: src/admin/partials/dr-import-recipe-screen.php:63
+msgid "%d recipe found"
+msgid_plural "%d recipes found"
+msgstr[0] "Se ha encontrado %d receta"
+msgstr[1] "Se han encontrado %d recetas"
+
+#. translators: %1$s: importer plugin name %2$s: importer plugin name
+#: src/admin/partials/dr-import-recipe-screen.php:57
+msgid "All the recipes from %1$s plugin has been imported. You can now deactivate the %2$s plugin."
+msgstr "Todas las recetas del plugin %1$s han sido importadas. Ahora puede desactivar el plugin %2$s."
+
+#. translators: %1$s: importer plugin name
+#: src/admin/partials/dr-import-recipe-screen.php:34
+msgid "Import recipes from %1$s"
+msgstr "Importar recetas de %1$s"
+
+#: src/classes/class-delicious-recipes-import.php:40
+#: src/classes/class-delicious-recipes-import.php:41
+#: src/admin/partials/dr-import-recipe-screen.php:9
+msgid "Import Recipes"
+msgstr "Importar recetas"
+
+#. Plugin URI of the plugin
+msgid "https://wpdelicious.com/docs/"
+msgstr "https://wpdelicious.com/docs/"
+
+#: src/Functions/CoreFunctions.php:1232 src/Functions/CoreFunctions.php:1233
+#: assets/admin/build/recipe.js:3
+msgid "Drizzle"
+msgstr "Llovizna"
+
+#: src/Functions/CoreFunctions.php:1230 src/Functions/CoreFunctions.php:1231
+msgid "drizzle"
+msgstr "llovizna"
+
+#: src/import/class-delicious-recipes-import-blossom-recipe-maker.php:44
+#: src/import/class-delicious-recipes-import-wp-recipe-maker.php:44
+msgid "Recipe Taxonomies Mapping"
+msgstr "Asignación de taxonomías de recetas"
+
+#: src/import/class-delicious-recipes-import-blossom-recipe-maker.php:28
+msgid "Blossom Recipe Maker"
+msgstr "Creador de recetas de Blossom"
+
+#: src/admin/partials/dr-import-recipe-screen.php:151
+msgid "Import Selected Recipes / Taxonomies"
+msgstr "Importar recetas selecionadas / Taxonomía"
+
+#: src/Functions/HelperFunctions.php:633
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:426
+#: assets/admin/build/recipe.js:3
+msgid "Thiamin"
+msgstr "Tiamina"
+
+#: src/Functions/HelperFunctions.php:638
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:430
+#: assets/admin/build/recipe.js:3
+msgid "Riboflavin"
+msgstr "Riboflavina"
+
+#: src/Functions/HelperFunctions.php:643
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:434
+#: assets/admin/build/recipe.js:3
+msgid "Niacin"
+msgstr "Niacina"
+
+#: src/Functions/HelperFunctions.php:648
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:438
+#: assets/admin/build/recipe.js:3
+msgid "Vitamin B6"
+msgstr "Vitamina B6"
+
+#: src/Functions/HelperFunctions.php:653
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:446
+#: assets/admin/build/recipe.js:3
+msgid "Folate"
+msgstr "Ácido fólico"
+
+#: src/Functions/HelperFunctions.php:658
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:442
+#: assets/admin/build/recipe.js:3
+msgid "Vitamin B12"
+msgstr "Vitamina B12"
+
+#: src/Functions/HelperFunctions.php:663
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:450
+#: assets/admin/build/recipe.js:3
+msgid "Biotin"
+msgstr "Biotina"
+
+#: src/Functions/HelperFunctions.php:668
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:454
+#: assets/admin/build/recipe.js:3
+msgid "Pantothenic Acid"
+msgstr "Ácido pantoténico"
+
+#: src/Functions/HelperFunctions.php:673
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:458
+#: assets/admin/build/recipe.js:3
+msgid "Phosphorus"
+msgstr "Fósforo"
+
+#: src/Functions/HelperFunctions.php:678
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:462
+#: assets/admin/build/recipe.js:3
+msgid "Iodine"
+msgstr "Yodo"
+
+#: src/Functions/HelperFunctions.php:683
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:466
+#: assets/admin/build/recipe.js:3
+msgid "Magnesium"
+msgstr "Magnesio"
+
+#: src/Functions/HelperFunctions.php:688
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:470
+#: assets/admin/build/recipe.js:3
+msgid "Zinc"
+msgstr "Zinc"
+
+#: src/Functions/HelperFunctions.php:693
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:474
+#: assets/admin/build/recipe.js:3
+msgid "Selenium"
+msgstr "Selenio"
+
+#: src/Functions/HelperFunctions.php:698
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:478
+#: assets/admin/build/recipe.js:3
+msgid "Copper"
+msgstr "Cobre"
+
+#: src/Functions/HelperFunctions.php:703
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:482
+#: assets/admin/build/recipe.js:3
+msgid "Manganese"
+msgstr "Manganeso"
+
+#: src/Functions/HelperFunctions.php:708
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:486
+#: assets/admin/build/recipe.js:3
+msgid "Chromium"
+msgstr "Cromo"
+
+#: src/Functions/HelperFunctions.php:713
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:490
+#: assets/admin/build/recipe.js:3
+msgid "Molybdenum"
+msgstr "Molibdeno"
+
+#: src/Functions/HelperFunctions.php:718
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:494
+#: assets/admin/build/recipe.js:3
+msgid "Chloride"
+msgstr "Cloruro"
+
+#. translators: %s: comment author link
+#: src/Functions/HelperFunctions.php:849
+msgid "<b class=\"fn\" itemprop=\"creator\" itemscope itemtype=\"https://schema.org/Person\">%s</b> <span class=\"says\">says:</span>"
+msgstr "<b class=\"fn\" itemprop=\"creator\" itemscope itemtype=\"https://schema.org/Person\">%s</b> <span class=\"says\">dice:</span>"
+
+#. translators: %1$s: comment date %2$s: comment time
+#: src/Functions/HelperFunctions.php:856
+msgid "%1$s at %2$s"
+msgstr "%1$s a las %2$s"
+
+#: src/Functions/HelperFunctions.php:861
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está pendiente de moderación."
+
+#: src/classes/class-delicious-recipes-activator.php:30
+msgctxt "Page slug"
+msgid "recipe-search"
+msgstr "buscar-receta"
+
+#: src/classes/class-delicious-recipes-activator.php:31
+msgctxt "Page title"
+msgid "Recipe Search"
+msgstr "Búsqueda de recetas"
+
+#: src/DeliciousAdmin.php:292
+msgctxt "add new on admin bar"
+msgid "Recipe"
+msgstr "Receta"
+
+#: src/DeliciousAdmin.php:293
+msgctxt "Recipe"
+msgid "Add New"
+msgstr "Añadir nueva"
+
+#: src/DeliciousAdmin.php:295
+msgid "New Recipe"
+msgstr "Nueva receta"
+
+#: src/DeliciousAdmin.php:298
+msgid "All Recipes"
+msgstr "Todas las recetas"
+
+#: src/DeliciousAdmin.php:299
+msgid "Search Recipes"
+msgstr "Buscar recetas"
+
+#: src/DeliciousAdmin.php:309
+msgid "Description."
+msgstr "Descripción."
+
+#: src/DeliciousAdmin.php:377
+msgctxt "taxonomy general name"
+msgid "Cuisines"
+msgstr "Cocinas"
+
+#: src/DeliciousAdmin.php:378
+msgctxt "taxonomy singular name"
+msgid "Cuisine"
+msgstr "Cocina"
+
+#: src/DeliciousAdmin.php:379
+msgid "Search Cuisines"
+msgstr "Buscar cocinas"
+
+#: src/DeliciousAdmin.php:380
+msgid "All Cuisines"
+msgstr "Todas las cocinas"
+
+#: src/DeliciousAdmin.php:386
+msgid "New Cuisine Name"
+msgstr "Nuevo nombre de la cocina"
+
+#: src/DeliciousAdmin.php:387 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-by-tax/BlockInspectorControls.js:61
+msgid "Cuisines"
+msgstr "Cocinas"
+
+#: src/DeliciousAdmin.php:435
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: src/DeliciousAdmin.php:436
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: src/DeliciousAdmin.php:437
+msgid "Search Tags"
+msgstr "Buscar etiquetas"
+
+#: src/DeliciousAdmin.php:445 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-by-tax/BlockInspectorControls.js:69
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: src/DeliciousAdmin.php:466
+msgid "Search Recipe Keys"
+msgstr "Buscar claves de receta"
+
+#: src/DeliciousAdmin.php:467
+msgid "All Recipe Keys"
+msgstr "Todas las claves de la receta"
+
+#: src/DeliciousAdmin.php:512
+msgid "Vegetarian Meals"
+msgstr "Comidas vegetarianas"
+
+#: src/DeliciousAdmin.php:517 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:89
+msgid "Gluten Free"
+msgstr "Sin gluten"
+
+#: src/DeliciousAdmin.php:522
+msgid "Paleo"
+msgstr "Paleo"
+
+#: src/DeliciousAdmin.php:532 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:91
+msgid "Low Carb"
+msgstr "Baja en carbohidratos"
+
+#: src/DeliciousAdmin.php:542
+msgid "Dairy"
+msgstr "Lácteos"
+
+#: src/DeliciousAdmin.php:547
+msgid "Kids"
+msgstr "Niños"
+
+#: src/DeliciousAdmin.php:552
+msgid "Mixing"
+msgstr "Mezcla"
+
+#: src/DeliciousAdmin.php:557
+msgid "Non Vegetarian"
+msgstr "No vegetariano"
+
+#: src/DeliciousAdmin.php:562
+msgid "Cold"
+msgstr "Frío"
+
+#: src/DeliciousAdmin.php:567
+msgid "Spicy"
+msgstr "Picante"
+
+#: src/DeliciousAdmin.php:572
+msgid "Raw"
+msgstr "Crudo"
+
+#: src/DeliciousAdmin.php:577 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:90
+msgid "Dairy Free"
+msgstr "Sin lácteos"
+
+#: src/DeliciousAdmin.php:582 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:94
+msgid "Nut Free"
+msgstr "Sin nueces"
+
+#: src/DeliciousAdmin.php:592
+msgid "Quick Meals"
+msgstr "Comidas rápidas"
+
+#: src/DeliciousAdmin.php:597
+msgid "Whole30"
+msgstr "Whole30"
+
+#: src/DeliciousAdmin.php:602 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:98
+msgid "Vegan"
+msgstr "Vegano"
+
+#: src/DeliciousAdmin.php:607 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:97
+msgid "Keto"
+msgstr "Keto"
+
+#: src/DeliciousAdmin.php:632
+msgid "Sugar Free"
+msgstr "Sin azúcar"
+
+#: src/DeliciousAdmin.php:683
+msgid "Recipe Settings"
+msgstr "Ajustes de la receta"
+
+#: src/DeliciousAdmin.php:909
+msgid "Featured"
+msgstr "Destacado"
+
+#: src/DeliciousAdmin.php:1019
+msgid "Clone"
+msgstr "Clonar"
+
+#: src/widgets/categories.php:36
+#: src/admin/partials/dr-category-widget-form.php:7
+msgid "Recipe Categories"
+msgstr "Categorías de recetas"
+
+#: src/admin/partials/dr-category-widget-form.php:61
+msgid "No Terms available."
+msgstr "No hay términos disponibles."
+
+#: src/admin/partials/dr-taxonomy-metas-edit.php:12
+#: src/admin/partials/dr-taxonomy-metas-add.php:9
+msgid "Taxonomy Color"
+msgstr "Color de la taxonomía"
+
+#: src/admin/partials/dr-taxonomy-metas-edit.php:14
+#: src/admin/partials/dr-taxonomy-metas-add.php:11
+msgid "Choose color for the taxonomy."
+msgstr "Elige el color para la taxonomía."
+
+#: src/admin/partials/dr-taxonomy-metas-edit.php:18
+#: src/admin/partials/dr-taxonomy-metas-add.php:14
+msgid "Taxonomy Image"
+msgstr "Imagen de la taxonomía"
+
+#: src/admin/partials/dr-taxonomy-metas-edit.php:55
+#: src/admin/partials/dr-taxonomy-metas-add.php:28
+msgid "Recipe Icons"
+msgstr "Iconos de recetas"
+
+#: src/admin/partials/dr-taxonomy-metas-edit.php:57
+#: src/admin/partials/dr-taxonomy-metas-add.php:30
+msgid "PNG Icons"
+msgstr "Iconos PNG"
+
+#: src/admin/partials/dr-taxonomy-metas-edit.php:31
+msgid "Choose image for the taxonomy."
+msgstr "Elige la imagen para la taxonomía."
+
+#: src/Functions/CoreFunctions.php:1160 src/Functions/CoreFunctions.php:1161
+msgid "ml"
+msgstr "ml"
+
+#: src/Functions/CoreFunctions.php:1162
+msgid "milliliter"
+msgstr "mililitro"
+
+#: src/Functions/CoreFunctions.php:1163
+msgid "milliliters"
+msgstr "mililitros"
+
+#: src/Functions/CoreFunctions.php:1167 src/Functions/CoreFunctions.php:1168
+msgid "l"
+msgstr "l"
+
+#: src/Functions/CoreFunctions.php:1169
+msgid "liter"
+msgstr "litro"
+
+#: src/Functions/CoreFunctions.php:1170
+msgid "liters"
+msgstr "litros"
+
+#: src/Functions/CoreFunctions.php:1174 src/Functions/CoreFunctions.php:1176
+msgid "stick"
+msgstr "barra"
+
+#: src/Functions/CoreFunctions.php:1175 src/Functions/CoreFunctions.php:1177
+msgid "sticks"
+msgstr "barras"
+
+#: src/Functions/CoreFunctions.php:1181
+msgid "lb"
+msgstr "lb"
+
+#: src/Functions/CoreFunctions.php:1182
+msgid "lbs"
+msgstr "libras"
+
+#: src/Functions/CoreFunctions.php:1183
+msgid "pound"
+msgstr "libra"
+
+#: src/Functions/CoreFunctions.php:1184
+msgid "pounds"
+msgstr "libras"
+
+#: src/Functions/CoreFunctions.php:1188 src/Functions/CoreFunctions.php:1190
+msgid "dash"
+msgstr "pizca"
+
+#: src/Functions/CoreFunctions.php:1189 src/Functions/CoreFunctions.php:1191
+msgid "dashes"
+msgstr "pizcas"
+
+#: src/Functions/CoreFunctions.php:1195 src/Functions/CoreFunctions.php:1197
+msgid "drop"
+msgstr "gota"
+
+#: src/Functions/CoreFunctions.php:1196 src/Functions/CoreFunctions.php:1198
+msgid "drops"
+msgstr "gotas"
+
+#: src/Functions/CoreFunctions.php:1202
+msgid "gal"
+msgstr "galón"
+
+#: src/Functions/CoreFunctions.php:1203
+msgid "gals"
+msgstr "galones"
+
+#: src/Functions/CoreFunctions.php:1204
+msgid "gallon"
+msgstr "galón"
+
+#: src/Functions/CoreFunctions.php:1205
+msgid "gallons"
+msgstr "galones"
+
+#: src/Functions/CoreFunctions.php:1209 src/Functions/CoreFunctions.php:1211
+msgid "pinch"
+msgstr "pizca"
+
+#: src/Functions/CoreFunctions.php:1210 src/Functions/CoreFunctions.php:1212
+msgid "pinches"
+msgstr "pizcas"
+
+#: src/Functions/CoreFunctions.php:1216 src/Functions/CoreFunctions.php:1217
+msgid "pt"
+msgstr "pinta"
+
+#: src/Functions/CoreFunctions.php:1218
+msgid "pint"
+msgstr "pinta"
+
+#: src/Functions/CoreFunctions.php:1219
+msgid "pints"
+msgstr "pintas"
+
+#: src/Functions/CoreFunctions.php:1223
+msgid "qt"
+msgstr "cuarto"
+
+#: src/Functions/CoreFunctions.php:1224
+msgid "qts"
+msgstr "cuartos"
+
+#: src/Functions/CoreFunctions.php:1225
+msgid "quart"
+msgstr "cuarto"
+
+#: src/Functions/CoreFunctions.php:1226
+msgid "quarts"
+msgstr "cuartos"
+
+#: src/Functions/HelperFunctions.php:526
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:346
+#: assets/admin/build/recipe.js:3
+msgid "Calories from Fat"
+msgstr "Calorías de grasa"
+
+#: src/Functions/HelperFunctions.php:533
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:350
+#: assets/admin/build/recipe.js:3
+msgid "Total Fat"
+msgstr "Grasa total"
+
+#: src/Functions/HelperFunctions.php:539
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:355
+#: assets/admin/build/recipe.js:3
+msgid "Saturated Fat"
+msgstr "Grasa saturada"
+
+#: src/Functions/HelperFunctions.php:545
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:360
+#: assets/admin/build/recipe.js:3
+msgid "Trans Fat"
+msgstr "Grasa trans"
+
+#: src/Functions/HelperFunctions.php:552
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:364
+#: assets/admin/build/recipe.js:3
+msgid "Cholesterol"
+msgstr "Colesterol"
+
+#: src/Functions/HelperFunctions.php:558
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:369
+#: assets/admin/build/recipe.js:3
+msgid "Sodium"
+msgstr "Sodio"
+
+#: src/Functions/HelperFunctions.php:564
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:374
+#: assets/admin/build/recipe.js:3
+msgid "Potassium"
+msgstr "Potasio"
+
+#: src/Functions/HelperFunctions.php:570
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:379
+#: assets/admin/build/recipe.js:3
+msgid "Total Carbohydrate"
+msgstr "Carbohidratos totales"
+
+#: src/Functions/HelperFunctions.php:576
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:384
+#: assets/admin/build/recipe.js:3
+msgid "Dietary Fiber"
+msgstr "Fibra dietética"
+
+#: src/Functions/HelperFunctions.php:582
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:389
+#: assets/admin/build/recipe.js:3
+msgid "Sugars"
+msgstr "Azúcares"
+
+#: src/Functions/HelperFunctions.php:589
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:393
+#: assets/admin/build/recipe.js:3
+msgid "Protein"
+msgstr "Proteína"
+
+#: src/Functions/HelperFunctions.php:598
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:398
+#: assets/admin/build/recipe.js:3
+msgid "Vitamin A"
+msgstr "Vitamina A"
+
+#: src/Functions/HelperFunctions.php:603
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:402
+#: assets/admin/build/recipe.js:3
+msgid "Vitamin C"
+msgstr "Vitamina C"
+
+#: src/Functions/HelperFunctions.php:608
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:406
+#: assets/admin/build/recipe.js:3
+msgid "Calcium"
+msgstr "Calcio"
+
+#: src/Functions/HelperFunctions.php:613
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:410
+#: assets/admin/build/recipe.js:3
+msgid "Iron"
+msgstr "Hierro"
+
+#: src/Functions/HelperFunctions.php:618
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:414
+#: assets/admin/build/recipe.js:3
+msgid "Vitamin D"
+msgstr "Vitamina D"
+
+#: src/Functions/HelperFunctions.php:623
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:418
+#: assets/admin/build/recipe.js:3
+msgid "Vitamin E"
+msgstr "Vitamina E"
+
+#: src/Functions/HelperFunctions.php:628
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:422
+#: assets/admin/build/recipe.js:3
+msgid "Vitamin K"
+msgstr "Vitamina K"
+
+#: src/widgets/recipe-keys.php:18
+msgid "Delicious: Recipe Keys"
+msgstr "Delicioso: Claves de receta"
+
+#: src/widgets/recipe-keys.php:82 src/widgets/popular.php:130
+#: src/widgets/popular-tags.php:81 src/widgets/recent.php:92
+#: src/widgets/featured.php:98
+#: src/admin/partials/dr-category-widget-form.php:22
+msgid "Title:"
+msgstr "Título:"
+
+#: src/widgets/popular-tags.php:20
+msgid "A Popular Tags Widget for Delicious Recipes."
+msgstr "Un widget de etiquetas populares para Delicious Recipes."
+
+#: src/widgets/popular-tags.php:36 src/widgets/popular-tags.php:77
+msgid "Popular Tags"
+msgstr "Etiquetas populares"
+
+#: src/widgets/popular-tags.php:86
+msgid "Show tag counts"
+msgstr "Mostrar recuentos de etiquetas"
+
+#: src/widgets/categories.php:20
+msgid "A list or dropdown of recipe categories for Delicious Recipes."
+msgstr "Una lista o lista desplegable de categorías de recetas para Delicious Recipes."
+
+#: src/widgets/popular.php:20
+msgid "Delicious: Popular Recipes"
+msgstr "Delicioso: Recetas populares"
+
+#: src/widgets/popular.php:22
+msgid "A Popular Recipes Widget for Delicious Recipes."
+msgstr "Un widget de recetas populares para recetas deliciosas."
+
+#: src/widgets/popular.php:62 src/widgets/popular.php:124
+msgid "Popular Recipes"
+msgstr "Recetas populares"
+
+#: src/widgets/popular.php:134 src/widgets/recent.php:96
+#: src/widgets/featured.php:102
+msgid "Number of Recipes:"
+msgstr "Número de recetas:"
+
+#: src/widgets/popular.php:138
+msgid "Popular based on:"
+msgstr "Popular basado en:"
+
+#: src/widgets/popular.php:140
+msgid "Post Views"
+msgstr "Vistas de la publicación"
+
+#: src/widgets/popular.php:141
+msgid "Comment Count"
+msgstr "Conteo de comentarios"
+
+#: src/widgets/popular.php:145 src/widgets/recent.php:100
+#: src/widgets/featured.php:106
+msgid "Layout:"
+msgstr "Layout:"
+
+#: src/widgets/recent.php:18
+msgid "Delicious: Recent Recipes"
+msgstr "Delicioso: Recetas recientes"
+
+#: src/widgets/recent.php:20
+msgid "A Recent Recipes Widget for Delicious Recipes."
+msgstr "Un widget de recetas recientes para Delicious Recipes."
+
+#: src/widgets/recent.php:35 src/widgets/recent.php:87
+msgid "Recent Recipes"
+msgstr "Recetas recientes"
+
+#: src/widgets/featured.php:20
+msgid "A Featured Recipes Widget for Delicious Recipes."
+msgstr "Un widget de recetas destacadas para Delicious Recipes."
+
+#: src/widgets/featured.php:35 src/widgets/featured.php:93
+msgid "Featured Recipes"
+msgstr "Recetas destacadas"
+
+#: src/GlobalSettings.php:69 assets/admin/build/whatsNew.js:3
+#: assets/admin/build/recipe.js:1
+msgid "Settings"
+msgstr "Ajustes"
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-auth-controller.php:56
+msgid "User Not Found."
+msgstr "No se encontró el usuario."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:88
+msgid "Recipes Found."
+msgstr "No se encontraron recetas."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:96
+msgid "No Recipes Found."
+msgstr "No se encontró ninguna receta."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:127
+msgid "Recipe Found."
+msgstr "Receta encontrada."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:133
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:156
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:174
+msgid "Recipe not found by ID."
+msgstr "No se encontró la receta por el ID."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:167
+msgid "Recipe Settings Saved Successfully."
+msgstr "Ajustes de la receta guardados con éxito."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:270
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:252
+msgid "Current page of the collection."
+msgstr "Página actual de la colección."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:278
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:260
+msgid "Maximum number of items to be returned in result set."
+msgstr "Número máximo de elementos que se devolverán en el conjunto de resultados."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:329
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:311
+msgid "Unique identifier for the object."
+msgstr "Identificador único para el objeto."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:335
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:317
+msgid "The date the object was published, in the site's timezone."
+msgstr "La fecha de publicación del objeto, en la zona horaria del sitio."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:341
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:323
+msgid "The title for the object."
+msgstr "El título para el objeto."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:350
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:332
+msgid "Title for the object, as it exists in the database."
+msgstr "Título para el objeto, tal y como existe en la base de datos."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:355
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:337
+msgid "HTML title for the object, transformed for display."
+msgstr "Título HTML para el objeto, transformado para visualización."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:363
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:345
+msgid "URL to the object."
+msgstr "URL al objeto."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:370
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:352
+msgid "The date the object was last modified, in the site's timezone."
+msgstr "La fecha en la que se modificó el objeto por última vez, en la zona horaria del sitio."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:377
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:359
+msgid "The date the object was last modified, as GMT."
+msgstr "La fecha en la que se modificó el objeto por última vez, como GMT."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:384
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:366
+msgid "A named status for the object."
+msgstr "Un estado nombrado para el objeto."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-recipe-controller.php:390
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:372
+msgid "Type of Post for the object."
+msgstr "Tipo de entrada para el objeto."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:74
+msgid "Recipe Settings not found."
+msgstr "No se encontraron ajustes de la receta."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:82
+msgid "Recipe Settings Found."
+msgstr "No se encontraron ajustes de la receta."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-controller.php:41
+#: src/api/inc/endpoints/class-delicious-recipes-rest-controller.php:53
+#: src/api/inc/endpoints/class-delicious-recipes-rest-controller.php:66
+msgid "You cannot view the post resource."
+msgstr "No puedes ver el recurso de publicación."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-controller.php:79
+msgid "You cannot update the site settings."
+msgstr "No puedes actualizar los ajustes del sitio."
+
+#: src/DeliciousAdmin.php:222
+msgid "Delicious Recipes Sidebar"
+msgstr "Barra lateral de Delicious Recipes"
+
+#: src/DeliciousAdmin.php:224
+msgid "This is the widget area for single recipe page."
+msgstr "Este es el área de widgets para la página de receta única."
+
+#: src/DeliciousAdmin.php:264
+msgid "Get help"
+msgstr "Obtener ayuda"
+
+#: src/DeliciousAdmin.php:264
+msgid "Support"
+msgstr "Soporte"
+
+#: src/DeliciousAdmin.php:265
+msgid "Docs"
+msgstr "Documentación"
+
+#: src/DeliciousAdmin.php:289
+msgctxt "post type general name"
+msgid "Recipes"
+msgstr "Recetas"
+
+#: src/DeliciousAdmin.php:290
+msgctxt "post type singular name"
+msgid "Recipe"
+msgstr "Receta"
+
+#: src/DeliciousAdmin.php:291
+msgctxt "admin menu"
+msgid "Recipes"
+msgstr "Recetas"
+
+#: src/DeliciousAdmin.php:294
+msgid "Add New Recipe"
+msgstr "Añadir una nueva receta"
+
+#: src/DeliciousAdmin.php:296
+msgid "Edit Recipe"
+msgstr "Editar una receta"
+
+#: src/DeliciousAdmin.php:297
+msgid "View Recipe"
+msgstr "Ver la receta"
+
+#: src/DeliciousAdmin.php:300
+msgid "Parent Recipes:"
+msgstr "Recetas principales:"
+
+#: src/DeliciousAdmin.php:301
+msgid "No Recipes found."
+msgstr "No se han encontrado recetas."
+
+#: src/DeliciousAdmin.php:302
+msgid "No Recipes found in Trash."
+msgstr "No se han encontrado recetas en la papelera."
+
+#: src/DeliciousAdmin.php:348
+msgctxt "taxonomy general name"
+msgid "Courses"
+msgstr "Platos"
+
+#: src/DeliciousAdmin.php:349
+msgctxt "taxonomy singular name"
+msgid "Course"
+msgstr "Plato"
+
+#: src/DeliciousAdmin.php:350
+msgid "Search Courses"
+msgstr "Buscar platos"
+
+#: src/DeliciousAdmin.php:351
+msgid "All Courses"
+msgstr "Todos los platos"
+
+#: src/DeliciousAdmin.php:352 src/DeliciousAdmin.php:353
+msgid "Parent Course"
+msgstr "Plato principal"
+
+#: src/DeliciousAdmin.php:354
+msgid "Edit Course"
+msgstr "Editar el plato"
+
+#: src/DeliciousAdmin.php:355
+msgid "Update Course"
+msgstr "Actualizar el plato"
+
+#: src/DeliciousAdmin.php:356
+msgid "Add New Course"
+msgstr "Añadir un nuevo plato"
+
+#: src/DeliciousAdmin.php:357
+msgid "New Course Name"
+msgstr "Nuevo nombre del plato"
+
+#: src/DeliciousAdmin.php:381 src/DeliciousAdmin.php:382
+msgid "Parent Cuisine"
+msgstr "Cocina principal"
+
+#: src/DeliciousAdmin.php:383
+msgid "Edit Cuisine"
+msgstr "Editar la cocina"
+
+#: src/DeliciousAdmin.php:384
+msgid "Update Cuisine"
+msgstr "Actualizar la cocina"
+
+#: src/DeliciousAdmin.php:385
+msgid "Add New Cuisine"
+msgstr "Añadir una nueva cocina"
+
+#: src/DeliciousAdmin.php:406
+msgctxt "taxonomy general name"
+msgid "Cooking Methods"
+msgstr "Métodos de cocinado"
+
+#: src/DeliciousAdmin.php:407
+msgctxt "taxonomy singular name"
+msgid "Cooking Method"
+msgstr "Método de cocinado"
+
+#: src/DeliciousAdmin.php:408
+msgid "Search Cooking Methods"
+msgstr "Buscar métodos de cocinado"
+
+#: src/DeliciousAdmin.php:409
+msgid "All Cooking Methods"
+msgstr "Todos los métodos de cocinado"
+
+#: src/DeliciousAdmin.php:410 src/DeliciousAdmin.php:411
+msgid "Parent Cooking Method"
+msgstr "Método de cocinado principal"
+
+#: src/DeliciousAdmin.php:412
+msgid "Edit Cooking Method"
+msgstr "Editar el método de cocinado"
+
+#: src/DeliciousAdmin.php:413
+msgid "Update Cooking Method"
+msgstr "Actualizar el método de cocinado"
+
+#: src/DeliciousAdmin.php:414
+msgid "Add New Cooking Method"
+msgstr "Añadir un nuevo método de cocinado"
+
+#: src/DeliciousAdmin.php:415
+msgid "New Cooking Method Name"
+msgstr "Nuevo nombre del método de cocinado"
+
+#: src/DeliciousAdmin.php:416 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-by-tax/BlockInspectorControls.js:65
+msgid "Cooking Methods"
+msgstr "Métodos de cocinado"
+
+#: src/DeliciousAdmin.php:438
+msgid "All Tags"
+msgstr "Todas las etiquetas"
+
+#: src/DeliciousAdmin.php:439 src/DeliciousAdmin.php:440
+msgid "Parent Tag"
+msgstr "Etiqueta principal"
+
+#: src/DeliciousAdmin.php:441
+msgid "Edit Tag"
+msgstr "Editar la etiqueta"
+
+#: src/DeliciousAdmin.php:442
+msgid "Update Tag"
+msgstr "Actualizar la etiqueta"
+
+#: src/DeliciousAdmin.php:443
+msgid "Add New Tag"
+msgstr "Añadir una nueva etiqueta"
+
+#: src/DeliciousAdmin.php:444
+msgid "New Tag Name"
+msgstr "Nuevo nombre de la etiqueta"
+
+#: src/DeliciousAdmin.php:464
+msgctxt "taxonomy general name"
+msgid "Recipe Keys"
+msgstr "Claves de la receta"
+
+#: src/DeliciousAdmin.php:465
+msgctxt "taxonomy singular name"
+msgid "Recipe Key"
+msgstr "Clave de la receta"
+
+#: src/DeliciousAdmin.php:470
+msgid "Edit Recipe Key"
+msgstr "Editar la clave de la receta"
+
+#: src/DeliciousAdmin.php:471
+msgid "Update Recipe Key"
+msgstr "Actualizar la clave de la receta"
+
+#: src/DeliciousAdmin.php:472
+msgid "Add New Recipe Key"
+msgstr "Añadir una nueva clave de receta"
+
+#: src/DeliciousAdmin.php:473
+msgid "New Recipe Key Name"
+msgstr "Nuevo nombre de la clave de receta"
+
+#: src/DeliciousAdmin.php:527
+msgid "Freezer Meals"
+msgstr "Comidas congeladas"
+
+#: src/DeliciousAdmin.php:537
+msgid "Slow Cooker Recipes"
+msgstr "Recetas de cocina lenta"
+
+#: src/DeliciousAdmin.php:587
+msgid "Pescetarian"
+msgstr "Pescetariano"
+
+#: src/DeliciousAdmin.php:612 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:96
+msgid "High Protein"
+msgstr "Alto en proteína"
+
+#: src/DeliciousAdmin.php:617 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:93
+msgid "Organic"
+msgstr "Orgánico"
+
+#: src/DeliciousAdmin.php:622
+msgid "Corn Free"
+msgstr "Sin maíz"
+
+#: src/DeliciousAdmin.php:627
+msgid "Soy Free"
+msgstr "Sin soja"
+
+#: src/DeliciousAdmin.php:637 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:95
+msgid "Egg Free"
+msgstr "Sin huevo"
+
+#: src/admin/partials/dr-category-widget-form.php:14
+msgid "Recipe Course"
+msgstr "Plato de la receta"
+
+#: src/admin/partials/dr-category-widget-form.php:15
+msgid "Recipe Cuisine"
+msgstr "Cocina de la receta"
+
+#: src/admin/partials/dr-category-widget-form.php:16
+msgid "Recipe Cooking Method"
+msgstr "Método de cocinado de la receta"
+
+#: src/admin/partials/dr-category-widget-form.php:26
+msgid "Recipe Taxonomy:"
+msgstr "Taxonomía de la receta:"
+
+#: src/admin/partials/dr-category-widget-form.php:29
+msgid "--Select Taxonomy--"
+msgstr "--Seleccionar la taxonomía--"
+
+#: src/admin/partials/dr-category-widget-form.php:48
+msgid "Choose Categories:"
+msgstr "Elegir las categorías:"
+
+#: src/admin/partials/dr-category-widget-form.php:72
+msgid "Show as dropdown"
+msgstr "Mostrar como desplegable"
+
+#: src/admin/partials/dr-category-widget-form.php:76
+msgid "Show recipe counts"
+msgstr "Mostrar el recuento de recetas"
+
+#: src/admin/partials/dr-taxonomy-metas-add.php:18
+#: assets/admin/build/global.js:1 assets/admin/build/global.js:3
+#: assets/admin/build/recipe.js:1 assets/admin/build/recipe.js:3
+msgid "Add Image"
+msgstr "Añadir una imagen"
+
+#: src/admin/partials/dr-taxonomy-metas-edit.php:30
+#: src/admin/partials/dr-taxonomy-metas-add.php:19
+msgid "Remove Image"
+msgstr "Eliminar la imagen"
+
+#: src/admin/partials/dr-taxonomy-metas-edit.php:36
+#: src/admin/partials/dr-taxonomy-metas-add.php:23
+msgid "Taxonomy SVG Icon"
+msgstr "Icono SVG de la taxonomía"
+
+#: src/admin/partials/dr-taxonomy-metas-edit.php:56
+#: src/admin/partials/dr-taxonomy-metas-add.php:29
+msgid "FontAwesome Icons"
+msgstr "Iconos de Font Awesome"
+
+#: src/admin/partials/dr-taxonomy-metas-edit.php:104
+#: src/admin/partials/dr-taxonomy-metas-add.php:75
+msgid "Choose svg icon for the taxonomy."
+msgstr "Elige el icono SVG para la taxonomía."
+
+#: src/admin/partials/dr-taxonomy-metas-edit.php:29
+msgid "Add/Replace Image"
+msgstr "Añadir/reemplazar la imagen"
+
+#: src/DeliciousPublic.php:347
+msgid "Error : You did not add a rating. Hit the Back button on your Web browser and resubmit your comment with a rating."
+msgstr "Error: No has añadido una valoración. Haz clic en el botón para ir atrás de tu navegador web y envía de nuevo tu comentario con una valoración."
+
+#: src/Functions/CoreFunctions.php:1140 src/Functions/CoreFunctions.php:1142
+msgid "cups"
+msgstr "tazas"
+
+#: src/Functions/CoreFunctions.php:1146 src/Functions/CoreFunctions.php:1147
+msgid "tsp"
+msgstr "cucharadita"
+
+#: src/Functions/CoreFunctions.php:1155
+msgid "tablespoon"
+msgstr "cucharada"
+
+#: src/Functions/CoreFunctions.php:1156
+msgid "tablespoons"
+msgstr "cucharadas"
+
+#: src/Functions/CoreFunctions.php:1148
+msgid "teaspoon"
+msgstr "cucharadita"
+
+#: src/Functions/CoreFunctions.php:1149
+msgid "teaspoons"
+msgstr "cucharaditas"
+
+#: src/Functions/CoreFunctions.php:1153 src/Functions/CoreFunctions.php:1154
+msgid "tbsp"
+msgstr "cucharada"
+
+#: src/Functions/HelperFunctions.php:511
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:333
+#: assets/admin/build/recipe.js:3
+msgid "Serving Size"
+msgstr "Tamaño de la ración"
+
+#. translators: %s: time in minutes
+#: src/classes/class-delicious-recipes-recipe.php:468
+msgctxt "total time minutes"
+msgid "%s min"
+msgid_plural "%s mins"
+msgstr[0] "%s min"
+msgstr[1] "%s mins"
+
+#. translators: %s: time in hours
+#: src/classes/class-delicious-recipes-recipe.php:463
+msgctxt "total time hours"
+msgid "%s hr"
+msgid_plural "%s hrs"
+msgstr[0] "%s h"
+msgstr[1] "%s h"
+
+#. translators: %1$s: permalink options page link
+#: src/DeliciousAdmin.php:1041
+msgid "<strong>Delicious Recipes</strong> plugin uses <b>WordPress Core REST API</b> interface for creating and managing recipes and does not support the plain permalink structure. Please <a href=\"%1$s\" >change your permalinks settings</a> to other structure to use Delicious Recipes plugin."
+msgstr "El plugin <strong>Delicious Recipes</strong> usa la interfaz de la <b>API REST del núcleo de WordPress</b> para crear y gestionar las recetas y no es compatible con la estructura de enlaces permanentes simples. Por favor, <a href=\"%1$s\" >cambia tus ajustes de enlaces permanentes</a> a otra estructura para usar el plugin Delicious Recipes."
+
+#: src/DeliciousAdmin.php:1025
+msgid "Clone "
+msgstr "Clonar "
+
+#: src/DeliciousAdmin.php:468 src/DeliciousAdmin.php:469
+msgid "Parent Recipe Key"
+msgstr "Clave de la receta superior"
+
+#: src/DeliciousAdmin.php:266
+msgid "Rate the plugin ★★★★★"
+msgstr "Valora el plugin con ★★★★★"
+
+#: src/DeliciousAdmin.php:266
+msgid "Rate the plugin"
+msgstr "Valorar el plugin"
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-global-settings-controller.php:108
+msgid "Recipe Global Settings Saved Successfully."
+msgstr "Los ajustes globales de recetas se han guardados correctamente."
+
+#: src/api/inc/endpoints/class-delicious-recipes-rest-auth-controller.php:39
+msgid "User Authentication Successful."
+msgstr "Autenticación de usuario exitosa."
+
+#: src/widgets/recipe-keys.php:20
+msgid "A Recipe Keys Widget for Delicious Recipes."
+msgstr "Un Widget de recetas clave para deliciosas recetas"
+
+#: src/Functions/CoreFunctions.php:1321
+msgid "Style One"
+msgstr "Estilo 1"
+
+#: src/Functions/CoreFunctions.php:1322
+msgid "Style Two"
+msgstr "Estilo 2"
+
+#: src/classes/class-delicious-recipes-activator.php:512
+#: src/Functions/HelperFunctions.php:1116 src/DeliciousAdmin.php:979
+msgid "Recipe Tags"
+msgstr "Etiquetas de receta"
+
+#: src/classes/class-delicious-recipes-activator.php:504
+#: src/Functions/HelperFunctions.php:1113 src/DeliciousAdmin.php:977
+msgid "Recipe Cuisines"
+msgstr "Cocinas de receta"
+
+#: src/classes/class-delicious-recipes-activator.php:500
+#: src/Functions/HelperFunctions.php:1114 src/DeliciousAdmin.php:976
+msgid "Recipe Cooking Methods"
+msgstr "Métodos de cocinado de receta"
+
+#: src/classes/class-delicious-recipes-activator.php:496
+#: src/Functions/HelperFunctions.php:1112 src/DeliciousAdmin.php:975
+msgid "Recipe Courses"
+msgstr "Tipos de plato de receta"
+
+#: templates/pages/taxonomy/terms-box.php:9 src/Functions/CoreFunctions.php:609
+#: assets/admin/build/global.js:3
+msgid "Narrow Your Search"
+msgstr "Limitar tu búsqueda"
+
+#: templates/pages/taxonomy/terms-carousal.php:33
+msgid "View All"
+msgstr "Ver todo"
+
+#: templates/global/searchpage-content.php:72
+#: templates/global/searchpage-content.php:208
+#: templates/pages/taxonomy/terms-carousal.php:63
+#: src/blocks/recipe-by-tax/block.php:110
+#: src/blocks/handpicked-recipes/block.php:92 assets/admin/build/blocks.js:1
+#: assets/blocks/recipe-by-tax/RecipesByType.js:70
+#: assets/blocks/handpicked-recipes/block.js:190
+msgid "Recipes not found."
+msgstr "No se encontraron recetas."
+
+#: templates/archive/pagination.php:30 templates/recipe/navigation.php:28
+msgid "Previous"
+msgstr "Anterior"
+
+#: templates/global/searchpage-content.php:105
+#: templates/archive/pagination.php:31 templates/recipe/navigation.php:44
+#: src/Functions/AjaxFunctions.php:422
+msgid "Next"
+msgstr "Siguiente"
+
+#: templates/archive/pagination.php:32
+msgid "Page"
+msgstr "Página"
+
+#: templates/archive/all-categories.php:35
+msgid "All Categories:"
+msgstr "Todas las categorías:"
+
+#. translators: %s: category name
+#: templates/archive/all-categories.php:46
+msgid "View all recipes in %s"
+msgstr "Ver todas las recetas en %s"
+
+#: templates/archive/recipes-by-ingredients.php:75
+msgid "Recipes by Ingredient:"
+msgstr "Recetas por ingrediente:"
+
+#: templates/widgets/categories-dropdown.php:30
+msgid "Select Category"
+msgstr "Seleccionar categoría"
+
+#: templates/archive-author.php:68 templates/taxonomy-archive.php:84
+msgid "No recipes found."
+msgstr "No se encontró ninguna receta."
+
+#: templates/global/block-print.php:71
+#: templates/recipe/recipe-block/ingredients.php:7
+#: templates/recipe/recipe-main.php:9
+#: src/classes/class-delicious-recipes-recipe.php:558
+#: src/Functions/CoreFunctions.php:707 src/Functions/CoreFunctions.php:813
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:313
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/admin/build/recipe.js:1 assets/admin/build/recipe.js:3
+#: assets/blocks/common/RecipeCard.js:241
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:1581
+msgid "Ingredients"
+msgstr "Ingredientes"
+
+#: templates/recipe/recipe-block/nutrition.php:155
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:283
+#: assets/admin/build/blocks.js:1 assets/admin/build/recipe.js:3
+#: assets/blocks/nutrition/Nutrition.js:204
+msgid "Amount Per Serving"
+msgstr "Cantidad por porción"
+
+#: templates/recipe/recipe-block/nutrition.php:165
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:293
+#: assets/admin/build/blocks.js:1 assets/admin/build/recipe.js:3
+#: assets/blocks/nutrition/Nutrition.js:242
+msgid "% Daily Value *"
+msgstr "% Valor diario *"
+
+#. translators: %1$s: average rating
+#: templates/recipe/recipe-block/summary.php:55
+msgid "%1$s from"
+msgstr "%1$s de"
+
+#: templates/global/block-print.php:72
+#: templates/recipe/recipe-block/instructions.php:8
+#: src/classes/class-delicious-recipes-recipe.php:627
+#: src/Functions/CoreFunctions.php:713
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:314
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/admin/build/recipe.js:1 assets/admin/build/recipe.js:3
+#: assets/blocks/common/RecipeCard.js:263
+msgid "Instructions"
+msgstr "Instrucciones"
+
+#: templates/recipe/recipe-block/instructions.php:25
+msgid "Off"
+msgstr "Desactivado"
+
+#: templates/recipe/recipe-block/instructions.php:26
+msgid "On"
+msgstr "Activado"
+
+#: templates/recipe/print-screen.php:45
+msgid "Print Options:"
+msgstr "Opciones de impresión:"
+
+#: templates/recipe/print-screen.php:60
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:374
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:420
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:433
+msgid "Print"
+msgstr "Imprimir"
+
+#: templates/recipe/print-screen.php:87
+msgid "Ratings"
+msgstr "Calificaciones"
+
+#. translators: %1$s: rating %2$s: total ratings count
+#: templates/recipe/print-screen.php:90
+msgid "%1$s from %2$s votes"
+msgstr "%1$s desde %2$s votos"
+
+#: templates/recipe/print-screen.php:136
+msgid "Time"
+msgstr "Tiempo"
+
+#: templates/global/block-print.php:70 templates/global/block-print.php:295
+#: templates/recipe/print-screen.php:187 src/Functions/CoreFunctions.php:446
+#: src/Functions/CoreFunctions.php:695 src/Functions/CoreFunctions.php:902
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:312
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:1
+#: assets/admin/build/global.js:3 assets/blocks/common/RecipeCard.js:226
+msgid "Description"
+msgstr "Descripción"
+
+#: templates/global/comments.php:54
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: templates/global/search/filter-difficulty.php:6
+#: src/classes/class-delicious-recipes-recipe.php:214
+#: assets/admin/build/blocks.js:1 assets/admin/build/recipe.js:3
+#: assets/blocks/details/Inspector.js:275
+#: assets/blocks/recipe-card-dynamic/components/Detail.js:376
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:882
+msgid "Beginner"
+msgstr "Principiante"
+
+#: templates/global/search/filter-difficulty.php:7
+#: src/classes/class-delicious-recipes-recipe.php:215
+#: assets/admin/build/blocks.js:1 assets/admin/build/recipe.js:3
+#: assets/blocks/details/Inspector.js:279
+#: assets/blocks/recipe-card-dynamic/components/Detail.js:378
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:886
+msgid "Intermediate"
+msgstr "Intermedio"
+
+#: templates/global/search/filter-difficulty.php:8
+#: src/classes/class-delicious-recipes-recipe.php:216
+#: assets/admin/build/blocks.js:1 assets/admin/build/recipe.js:3
+#: assets/blocks/details/Inspector.js:283
+#: assets/blocks/recipe-card-dynamic/components/Detail.js:381
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:890
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: templates/global/search/filter-simple-factor.php:6
+msgid "10 ingredients or less"
+msgstr "10 ingredientes o menos"
+
+#: templates/global/search/filter-simple-factor.php:7
+msgid "15 minutes or less"
+msgstr "15 minutos o menos"
+
+#: templates/global/search/filter-simple-factor.php:8
+msgid "30 minutes or less"
+msgstr "30 minutos o menos"
+
+#: templates/global/search/filter-simple-factor.php:9
+msgid "7 ingredients or less"
+msgstr "7 ingredientes o menos"
+
+#: templates/global/search/filter-reset.php:8
+msgid "Clear All"
+msgstr "Borrar todo"
+
+#: templates/global/search/filter-season.php:6
+#: src/classes/class-delicious-recipes-recipe.php:501
+#: assets/admin/build/blocks.js:1 assets/admin/build/recipe.js:3
+#: assets/blocks/details/Inspector.js:673
+#: assets/blocks/recipe-card-dynamic/components/Detail.js:400
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:1280
+msgid "Fall"
+msgstr "Otoño"
+
+#: templates/global/search/filter-season.php:7
+#: src/classes/class-delicious-recipes-recipe.php:502
+#: assets/admin/build/blocks.js:1 assets/admin/build/recipe.js:3
+#: assets/blocks/details/Inspector.js:674
+#: assets/blocks/recipe-card-dynamic/components/Detail.js:401
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:1281
+msgid "Winter"
+msgstr "Invierno"
+
+#: templates/global/search/filter-season.php:8
+#: src/classes/class-delicious-recipes-recipe.php:503
+#: assets/admin/build/blocks.js:1 assets/admin/build/recipe.js:3
+#: assets/blocks/details/Inspector.js:675
+#: assets/blocks/recipe-card-dynamic/components/Detail.js:402
+#: assets/blocks/recipe-card-dynamic/components/Detail.js:403
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:1282
+msgid "Summer"
+msgstr "Verano"
+
+#: templates/global/search/filter-season.php:9
+#: src/classes/class-delicious-recipes-recipe.php:504
+#: assets/admin/build/blocks.js:1 assets/admin/build/recipe.js:3
+#: assets/blocks/details/Inspector.js:676
+#: assets/blocks/recipe-card-dynamic/components/Detail.js:404
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:1283
+msgid "Spring"
+msgstr "Primavera"
+
+#: templates/global/search/filter-season.php:10
+#: src/classes/class-delicious-recipes-recipe.php:505
+#: assets/admin/build/blocks.js:1 assets/admin/build/recipe.js:3
+#: assets/blocks/details/Inspector.js:679
+#: assets/blocks/recipe-card-dynamic/components/Detail.js:406
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:1286
+msgid "Suitable throughout the year"
+msgstr "Adecuado durante todo el año"
+
+#: templates/global/search/filter-sorting.php:6
+#: src/Functions/CoreFunctions.php:827 assets/admin/build/global.js:3
+msgid "Sorting"
+msgstr "Clasificación"
+
+#: templates/global/search/filter-sorting.php:7
+msgid "Title (A-Z)"
+msgstr "Título (A-Z)"
+
+#: templates/global/search/filter-sorting.php:8
+msgid "Title (Z-A)"
+msgstr "Título (Z-A)"
+
+#: templates/global/search/filter-sorting.php:9
+msgid "Date (Newest)"
+msgstr "Fecha (más reciente)"
+
+#: templates/global/search/filter-sorting.php:10
+msgid "Date (Oldest)"
+msgstr "Fecha (más antigua)"
+
+#: templates/global/searchpage-content.php:79
+msgid "Posts navigation"
+msgstr "Navegación de publicaciones"
+
+#: templates/global/searchpage-content.php:96
+#: src/Functions/AjaxFunctions.php:413
+msgid "Prev"
+msgstr "Anterior"
+
+#. translators: %s template
+#: src/Functions/CoreFunctions.php:113
+msgid "%s does not exist."
+msgstr "%s no existe."
+
+#: src/Functions/CoreFunctions.php:130
+msgid "action_args should not be overwritten when calling delicious_recipes_get_template."
+msgstr "action_args no se debe sobrescribir al llamar a delicious_recipes_get_template."
+
+#: src/Functions/CoreFunctions.php:406 src/Functions/CoreFunctions.php:882
+#: src/admin/partials/dr-import-recipe-screen.php:89
+#: src/admin/partials/dr-import-recipe-screen.php:99
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:631
+msgid "Author"
+msgstr "Autor"
+
+#: templates/global/block-print.php:181 src/Functions/CoreFunctions.php:414
+#: src/DeliciousAdmin.php:358 assets/admin/build/blocks.js:1
+#: assets/admin/build/global.js:3
+#: assets/blocks/recipe-by-tax/BlockInspectorControls.js:57
+msgid "Courses"
+msgstr "Cursos"
+
+#: templates/global/block-print.php:159 src/Functions/CoreFunctions.php:422
+#: src/Functions/CoreFunctions.php:799 src/Functions/CoreFunctions.php:890
+#: assets/admin/build/global.js:3
+msgid "Cooking Method"
+msgstr "Método de cocción"
+
+#: templates/global/block-print.php:170 src/Functions/CoreFunctions.php:430
+#: src/Functions/CoreFunctions.php:785 src/Functions/CoreFunctions.php:894
+#: assets/admin/build/global.js:3
+msgid "Cuisine"
+msgstr "Cocina"
+
+#: templates/global/block-print.php:74 templates/global/block-print.php:204
+#: src/Functions/CoreFunctions.php:438 src/Functions/CoreFunctions.php:806
+#: src/Functions/CoreFunctions.php:898
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:160
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:316
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:97
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:183
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/blocks/details/Inspector.js:256
+#: assets/blocks/details/Inspector.js:268
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:863
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:875
+msgid "Difficulty"
+msgstr "Dificultad"
+
+#: src/Functions/CoreFunctions.php:454 src/Functions/CoreFunctions.php:906
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/blocks/common/RecipeCard.js:145
+#: assets/blocks/details/Inspector.js:315
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:922
+msgid "Prep Time"
+msgstr "Tiempo de preparación"
+
+#: src/Functions/CoreFunctions.php:462 src/Functions/CoreFunctions.php:910
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/blocks/common/RecipeCard.js:158
+msgid "Cook Time"
+msgstr "Tiempo de cocción"
+
+#: src/Functions/CoreFunctions.php:470 src/Functions/CoreFunctions.php:914
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/admin/build/recipe.js:3 assets/blocks/common/RecipeCard.js:171
+msgid "Rest Time"
+msgstr "Tiempo de descanso"
+
+#: src/Functions/CoreFunctions.php:478 src/Functions/CoreFunctions.php:918
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/blocks/common/RecipeCard.js:188
+#: assets/blocks/details/Inspector.js:471
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:1078
+msgid "Total Time"
+msgstr "Tiempo total"
+
+#: templates/recipe/recipe-block/ingredients.php:16
+#: src/Functions/HelperFunctions.php:515 src/Functions/CoreFunctions.php:486
+#: src/Functions/CoreFunctions.php:922
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:338
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:874
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:238
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/admin/build/recipe.js:3 assets/blocks/details/Inspector.js:544
+#: assets/blocks/details/block.js:63 assets/blocks/details/block.js:109
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:1151
+msgid "Servings"
+msgstr "Porciones"
+
+#: src/Functions/HelperFunctions.php:522 src/Functions/CoreFunctions.php:494
+#: src/Functions/CoreFunctions.php:926
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:342
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:881
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:245
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/admin/build/recipe.js:3 assets/blocks/details/Inspector.js:608
+#: assets/blocks/details/block.js:68 assets/blocks/details/block.js:114
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:1215
+msgid "Calories"
+msgstr "Calorías"
+
+#: templates/global/block-print.php:75 templates/global/block-print.php:278
+#: src/Functions/CoreFunctions.php:502 src/Functions/CoreFunctions.php:930
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:169
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:317
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:106
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-details.php:184
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/admin/build/recipe.js:3 assets/blocks/details/Inspector.js:660
+#: assets/blocks/details/Inspector.js:670
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:1267
+#: assets/blocks/recipe-card-dynamic/components/Inspector.js:1277
+msgid "Best Season"
+msgstr "Mejor temporada"
+
+#: templates/global/block-print.php:192
+#: src/classes/class-delicious-recipes-activator.php:508
+#: src/Functions/HelperFunctions.php:1115 src/Functions/CoreFunctions.php:510
+#: src/Functions/CoreFunctions.php:934 src/widgets/recipe-keys.php:42
+#: src/widgets/recipe-keys.php:79 src/DeliciousAdmin.php:474
+#: src/DeliciousAdmin.php:978 assets/admin/build/blocks.js:1
+#: assets/admin/build/global.js:3
+#: assets/blocks/recipe-by-tax/BlockInspectorControls.js:73
+msgid "Recipe Keys"
+msgstr "Claves de receta"
+
+#: src/Functions/CoreFunctions.php:526 src/Functions/CoreFunctions.php:942
+#: assets/admin/build/global.js:3
+msgid "Jump To Recipe"
+msgstr "Saltar a la receta"
+
+#: src/Functions/CoreFunctions.php:534 src/Functions/CoreFunctions.php:946
+#: assets/admin/build/global.js:3
+msgid "Keywords"
+msgstr "Palabras claves"
+
+#: templates/global/block-print.php:76 templates/global/block-print.php:310
+#: src/Functions/CoreFunctions.php:725 src/Functions/CoreFunctions.php:954
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/admin/build/recipe.js:1 assets/admin/build/recipe.js:3
+#: assets/blocks/common/RecipeCard.js:294
+msgid "Notes"
+msgstr "Notas"
+
+#: src/DeliciousPublic.php:432 src/Functions/CoreFunctions.php:607
+#: assets/admin/build/global.js:3
+msgid "Recipe Index"
+msgstr "Índice de recetas"
+
+#: src/Functions/CoreFunctions.php:649 src/Functions/CoreFunctions.php:973
+#: assets/admin/build/global.js:3
+msgid "Rate this recipe"
+msgstr "Calificar esta receta"
+
+#: src/Functions/CoreFunctions.php:675 src/Functions/CoreFunctions.php:977
+#: src/blocks/dynamic-blocks/class-delicious-recipe-buttons.php:86
+#: src/blocks/dynamic-blocks/class-delicious-recipe-buttons.php:135
+#: src/blocks/dynamic-blocks/class-delicious-recipe-buttons.php:213
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:1460
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/blocks/common/RecipeCard.js:42
+#: assets/blocks/recipe-buttons/RecipeButtons.js:181
+#: assets/blocks/recipe-card-dynamic/components/RecipeCard.js:419
+msgid "Print Recipe"
+msgstr "Imprimir receta"
+
+#: src/Functions/CoreFunctions.php:683 assets/admin/build/blocks.js:1
+#: assets/admin/build/global.js:3 assets/blocks/recipe-card/block.js:101
+#: assets/blocks/recipe-by-tax/BlockInspectorControls.js:34
+#: assets/blocks/handpicked-recipes/block.js:111
+msgid "Title"
+msgstr "Título"
+
+#: src/Functions/CoreFunctions.php:689 assets/admin/build/global.js:3
+msgid "Info"
+msgstr "Información"
+
+#: src/Functions/CoreFunctions.php:701 assets/admin/build/global.js:3
+msgid "Images"
+msgstr "Imágenes"
+
+#: src/Functions/CoreFunctions.php:719 assets/admin/build/global.js:1
+#: assets/admin/build/global.js:3 assets/admin/build/recipe.js:1
+msgid "Nutrition"
+msgstr "Nutrición"
+
+#: src/Functions/CoreFunctions.php:737 assets/admin/build/global.js:3
+msgid "Author Bio"
+msgstr "Biografía del autor"
+
+#: src/Functions/CoreFunctions.php:743 assets/admin/build/global.js:3
+msgid "Thank You Note"
+msgstr "Nota de agradecimiento"
+
+#: src/Functions/CoreFunctions.php:752 assets/admin/build/global.js:3
+msgid "Read it online:"
+msgstr "Léelo en línea:"
+
+#: src/Functions/CoreFunctions.php:765
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:114
+#: assets/admin/build/blocks.js:1 assets/admin/build/global.js:3
+#: assets/admin/build/recipe.js:3 assets/blocks/nutrition/Nutrition.js:171
+msgid "Nutrition Facts"
+msgstr "Información nutricional"
+
+#: src/Functions/CoreFunctions.php:778 assets/admin/build/global.js:3
+msgid "Season"
+msgstr "Temporada"
+
+#: src/Functions/CoreFunctions.php:792 assets/admin/build/global.js:3
+msgid "Recipe Type"
+msgstr "Tipo de receta"
+
+#: src/Functions/CoreFunctions.php:834 assets/admin/build/global.js:3
+msgid "Reset"
+msgstr "Restablecer"
+
+#: src/Functions/CoreFunctions.php:886
+msgid "Category"
+msgstr "Categoría"
+
+#: src/Functions/CoreFunctions.php:1106 assets/admin/build/global.js:1
+msgid "gram"
+msgstr "gramo"
+
+#: src/Functions/CoreFunctions.php:1107 assets/admin/build/global.js:1
+msgid "grams"
+msgstr "gramos"
+
+#: src/Functions/CoreFunctions.php:1111
+msgctxt "Kilograms Abbreviation (Singular)"
+msgid "kg"
+msgstr "kg"
+
+#: src/Functions/CoreFunctions.php:1113
+msgid "kilogram"
+msgstr "kilogramo"
+
+#: src/Functions/CoreFunctions.php:1114
+msgid "kilograms"
+msgstr "kilogramos"
+
+#: src/Functions/CoreFunctions.php:1118 src/Functions/CoreFunctions.php:1119
+#: assets/admin/build/blocks.js:1 assets/blocks/nutrition/Nutrition.js:324
+#: assets/blocks/nutrition/Nutrition.js:351
+#: assets/blocks/nutrition/Nutrition.js:374
+msgid "mg"
+msgstr "mg"
+
+#: src/Functions/CoreFunctions.php:1120
+msgid "milligram"
+msgstr "miligramo"
+
+#: src/Functions/CoreFunctions.php:1121
+msgid "milligrams"
+msgstr "miligramos"
+
+#: src/Functions/CoreFunctions.php:1125 src/Functions/CoreFunctions.php:1126
+msgid "oz"
+msgstr "oz"
+
+#: src/Functions/CoreFunctions.php:1127
+msgid "ounce"
+msgstr "onza"
+
+#: src/Functions/CoreFunctions.php:1128
+msgid "ounces"
+msgstr "onzas"
+
+#: src/Functions/CoreFunctions.php:1132 src/Functions/CoreFunctions.php:1133
+msgid "fl oz"
+msgstr "fl oz"
+
+#: src/Functions/CoreFunctions.php:1134
+msgid "fluid ounce"
+msgstr "onza líquida"
+
+#: src/Functions/CoreFunctions.php:1135
+msgid "fluid ounces"
+msgstr "onzas líquidas"
+
+#. Plugin Name of the plugin
+#: src/GlobalSettings.php:68 src/blocks/init.php:118 src/DeliciousAdmin.php:146
+#: assets/admin/build/onboard.js:1
+msgid "Delicious Recipes"
+msgstr "Delicious Recipes"
+
+#. Author URI of the plugin
+msgid "https://wpdelicious.com"
+msgstr "https://wpdelicious.com"
+
+#. Author of the plugin
+msgid "WP Delicious"
+msgstr "WP Delicious"
+
+#: templates/pages/recipe-keys.php:26
+msgid "Terms not found for recipe keys."
+msgstr "No se encontraron claves para las recetas."
+
+#: templates/pages/recipe-cuisines.php:26
+msgid "Terms not found for recipe cuisines."
+msgstr "No se encontraron términos para las cocinas de recetas."
+
+#: templates/pages/recipe-cooking-methods.php:26
+msgid "Terms not found for recipe cooking methods."
+msgstr "No se encontraron términos para los métodos de cocción de recetas."
+
+#: templates/pages/recipe-tags.php:26
+msgid "Terms not found for recipe tags."
+msgstr "No se encontraron términos para las etiquetas de receta."
+
+#: templates/pages/recipe-courses.php:26
+msgid "Terms not found for recipe categories."
+msgstr "No se encontraron términos para las categorías de recetas."
+
+#: src/Functions/CoreFunctions.php:1112
+msgctxt "Kilograms Abbreviation (Plural)"
+msgid "kg"
+msgstr "kg"
+
+#: src/Functions/CoreFunctions.php:1105
+msgctxt "Grams Abbreviation (Plural)"
+msgid "g"
+msgstr "g"
+
+#: src/Functions/CoreFunctions.php:1104
+msgctxt "Grams Abbreviation (Singular)"
+msgid "g"
+msgstr "g"
+
+#: src/Functions/CoreFunctions.php:731 assets/admin/build/global.js:3
+msgid "Social Share"
+msgstr "Compartir"
+
+#: src/Functions/CoreFunctions.php:631 assets/admin/build/global.js:3
+msgid "Did you make this recipe?"
+msgstr "¿Hiciste esta receta?"
+
+#: src/Functions/CoreFunctions.php:558 src/Functions/CoreFunctions.php:958
+msgid "Jump To Video"
+msgstr "Saltar al vídeo"
+
+#: src/Functions/CoreFunctions.php:542 src/Functions/CoreFunctions.php:950
+#: assets/admin/build/global.js:3
+msgid "File under"
+msgstr "Archivar en"
+
+#: templates/global/block-print.php:73 src/Functions/CoreFunctions.php:518
+#: src/Functions/CoreFunctions.php:938
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-recipe-card.php:315
+#: assets/admin/build/global.js:3
+msgid "Video"
+msgstr "Vídeo"
+
+#. translators: 1: comment count number.
+#: templates/global/comments.php:33
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s comentario"
+msgstr[1] "%1$s comentarios"
+
+#. translators: %s: total comments count
+#: templates/recipes-list.php:94 templates/recipe/header.php:41
+msgctxt "number of comments"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s comentario"
+msgstr[1] "%s comentarios"
+
+#: templates/recipe/powered-by.php:19
+msgid "Recipe Card powered by"
+msgstr "Tarjeta de receta desarrollada por"
+
+#: templates/recipe/recipe-like.php:7
+msgid "Like Recipe"
+msgstr "Me gusta la receta"
+
+#. Description of the plugin
+msgid "A powerful recipe plugin to create and display recipes for bloggers. SEO optimized and Schema-friendly to rank recipes higher on search engines."
+msgstr "Un poderoso plugin de recetas para crear y mostrar recetas para bloggers. Con optimización SEO y amigable con Schema para calificar tus recetas en lo más alto de los motores de búsqueda."
+
+#: src/Functions/CoreFunctions.php:1139 src/Functions/CoreFunctions.php:1141
+msgid "cup"
+msgstr "taza"
+
+#: templates/recipe/recipe-block/nutrition.php:11
+#: src/Functions/CoreFunctions.php:767
+#: src/blocks/dynamic-blocks/class-delicious-dynamic-nutrition.php:146
+#: assets/admin/build/global.js:3
+msgid "Percent Daily Values are based on a 2,000 calorie diet. Your daily value may be higher or lower depending on your calorie needs."
+msgstr "Los valores diarios porcentuales se basan en una dieta de 2000 calorías. Tu valor diario puede ser mayor o menor dependiendo de tus necesidades calóricas."
+
+#: src/Functions/CoreFunctions.php:820 assets/admin/build/global.js:3
+msgid "Simple Factor"
+msgstr "Factor simple "
+
+#. translators: %s: number of likes
+#: templates/recipe/recipe-like.php:7
+#: src/classes/class-delicious-recipes-likes-wishlists.php:103
+msgctxt "number of likes"
+msgid "%s Like"
+msgid_plural "%s Likes"
+msgstr[0] "%s me gusta"
+msgstr[1] "%s me gusta"

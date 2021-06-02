@@ -1,0 +1,17 @@
+2021-05-30T11:17:29+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\Web\wp-admin\includes\class-bulk-upgrader-skin.php:152
+Stack trace:
+#0 C:\xampp\htdocs\Web\wp-admin\includes\class-bulk-upgrader-skin.php(152): sprintf('%1$s installed ...', 'Revolution Slid...')
+#1 C:\xampp\htdocs\Web\wp-content\themes\bridge\includes\plugins\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Revolution Slid...')
+#2 C:\xampp\htdocs\Web\wp-admin\includes\class-wp-upgrader.php(823): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\Web\wp-content\themes\bridge\includes\plugins\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\Web\wp-content\themes\bridge\includes\plugins\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\Web\wp-content\themes\bridge\includes\plugins\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\Web\wp-content\themes\bridge\includes\plugins\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\Web\wp-includes\class-wp-hook.php(292): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\Web\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\Web\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\Web\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\Web\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown en C:\xampp\htdocs\Web\wp-admin\includes\class-bulk-upgrader-skin.php en la línea 152
+
